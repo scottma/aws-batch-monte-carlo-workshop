@@ -56,6 +56,14 @@ In this section, we will use the AWS batch first run wizard to walk through:
 	<img src="images/create-job-definition2.png" width="70%"/>
 
 	* Click **Next** 
+4. Under **Create a Job**
+	* **for job name**: `<your-user-name>-monte-carlo-job-1`
+	* **for parameters**: check the 3 parameters are there.
+	* click **Next**
+	<img src="images/create-job.png" width="70%"/>
+
+5. at the review page, 	* click **Create**
+
 
 
 4. Finally, click **Create**
