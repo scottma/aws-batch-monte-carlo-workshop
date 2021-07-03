@@ -23,6 +23,8 @@ As an optional step, you can test out Cloud9's debugging features
 	```bash
 	virtualenv -p /usr/bin/python36 .venv
 	source .venv/bin/activate
+	curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+	python3 get-pip.py --force-reinstall
 	```
 	
 1. Now if you check the python version by typing `python --version`, you should see something like this in the result:
