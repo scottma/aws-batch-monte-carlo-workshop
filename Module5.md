@@ -14,6 +14,21 @@ Amazon Elastic Container Registry (ECR) is a fully-managed Docker container regi
 1. In the following screen, you will be presented many useful commands. Follow the commands (a-d) to login to the registry, build the container, tag the container and push to the repo. 
 
 	![](images/ecr-commands.png)	
+	
+	```bash
+	
+	$(aws ecr get-login --no-include-email --region us-east-1)
+
+	docker build -t <your login>-monte-carlo-simulator	
+	# eg. docker build -t scottma-monte-carlo-simulator .
+	
+	docker tag <your login>-monte-carlo-simulator:latest <your repo>:latest
+	
+	# eg. docker tag scottma-monte-carlo-simulator:latest 781167023848.dkr.ecr.us-east-1.amazonaws.com/scottma-monte-carlo-simulator:latest
+
+	docker push <your repo>:latest
+	
+	```
 
 	
 1. After the push succeeds, now if you check your ECR repository, you should see the pushed docker image
