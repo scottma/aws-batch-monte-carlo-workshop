@@ -17,7 +17,7 @@ Once the files are stored in S3, you have many choices of analytics tools that c
 
 1. Make sure the region is selected as Ohio 
 
-	<img src="images/s3-region.png" width="70%"/>
+	<img src="images/create-bucket.png" width="70%"/>
 
 1. Click **Create** on the lower left corner
 
