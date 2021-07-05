@@ -20,7 +20,7 @@ To create this IAM role:
 
 1. In the **Attach permissions** policies screen, look for S3 in the search bar and pick **AWSBatchServiceRole**
 
-	<img src="images/AWSBatchService.png" width="70%" />
+	<img src="images/AWSBatchServiceRole.png" width="70%" />
 
 
 1. For Role name, pick a unique name e.g. `<your-user-name>-monte-carlo`, and click **Create role**
