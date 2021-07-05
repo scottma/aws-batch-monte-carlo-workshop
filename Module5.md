@@ -19,7 +19,7 @@ Amazon Elastic Container Registry (ECR) is a fully-managed Docker container regi
 	
 	$(aws ecr get-login --no-include-email --region us-east-1)
 
-	docker build -t <your login>-monte-carlo-simulator	
+	docker build -t <your login>-monte-carlo-simulator .	
 	# eg. docker build -t scottma-monte-carlo-simulator .
 	
 	docker tag <your login>-monte-carlo-simulator:latest <your repo>:latest
