@@ -45,7 +45,7 @@ In this section, we will use the AWS batch first run wizard to walk through:
 		* **for vCpus - required**: enter 2.0
 		* **for Memory - required**: enter 2GB
 	* Under **Container properties->Additional Configuration**
-		* **for Execution role -required**: enter `<your-user-name>-monte-carlo`
+		* **for Job role -required**: enter `<your-user-name>-monte-carlo`
 	
 	<img src="images/create-job-definition1.png" width="70%"/>
 	
